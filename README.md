@@ -2,6 +2,10 @@
 
 This Unity package contains core classes intended to be used for the creation of entities that implement a state-machine pattern in Unity projects. This can be useful for the creation of enemies and other NPCs.
 
+## Installation
+
+To add this package to a Unity project, clone this repository into the project's Assets folder. It can also be done by importing the Unity Packace found in this repository's releases section.
+
 ## Usage
 
 To create a behaviour that implements the state-machine pattern, it should inherit from the StateMachineBehaviour class. This is not necessary, but this class already has some base functions and members that facilitate this implementation. An example of such an implementation can be found in [PingPong.cs](Assets/StateMachines/Examples/PingPong/PingPong.cs), shown below:
